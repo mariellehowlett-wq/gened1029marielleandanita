@@ -1,36 +1,83 @@
 import streamlit as st
-import time
+import folium
+from streamlit_folium import st_folium
 
-st.title("Human Differences Explorer")
+st.title("Interactive Map of Human Evolution")
 
-st.write("Click an option to learn about different types of human variation.")
+lineages = [
+    {
+        "name": "Australopithecus afarensis",
+        "time": 3900000,
+        "location": "East Africa",
+        "lat": 9.0,
+        "lon": 40.0,
+        "info": "Lived about 3.9–2.9 million years ago. Famous fossil: Lucy."
+    },
+    {
+        "name": "Homo habilis",
+        "time": 2400000,
+        "location": "East Africa",
+        "lat": -3.0,
+        "lon": 36.0,
+        "info": "Lived about 2.4–1.4 million years ago. Associated with early stone tools."
+    },
+    {
+        "name": "Homo erectus",
+        "time": 1900000,
+        "location": "Africa and Eurasia",
+        "lat": -1.3,
+        "lon": 36.8,
+        "info": "Lived about 1.9 million–110,000 years ago. One of the first hominins to spread out of Africa."
+    },
+    {
+        "name": "Neanderthals",
+        "time": 400000,
+        "location": "Europe and western Asia",
+        "lat": 48.0,
+        "lon": 10.0,
+        "info": "Lived about 400,000–40,000 years ago. Closely related to modern humans."
+    },
+    {
+        "name": "Homo sapiens",
+        "time": 300000,
+        "location": "Africa",
+        "lat": 31.8,
+        "lon": -7.1,
+        "info": "Modern humans appeared around 300,000 years ago in Africa."
+    }
+]
 
-option = st.radio(
-    "Choose a category:",
-    ["Height", "Skin Tone", "Hair Type", "Eye Color", "Genetics"]
+years_ago = st.slider(
+    "Timeline: years ago",
+    min_value=0,
+    max_value=4000000,
+    value=4000000,
+    step=50000
 )
 
-if option == "Height":
-    st.subheader("Height")
-    st.write("Height differs among humans because of genetics, nutrition, health, and environment.")
+st.write(f"Showing lineages that existed by about **{years_ago:,} years ago**.")
 
-    for i in range(120, 201, 10):
-        st.progress((i - 120) / 80)
-        st.write(f"Example height: {i} cm")
-        time.sleep(0.1)
+m = folium.Map(location=[15, 20], zoom_start=2)
 
-elif option == "Skin Tone":
-    st.subheader("Skin Tone")
-    st.write("Skin tone varies mainly because of melanin, a pigment that helps protect skin from UV radiation.")
+for lineage in lineages:
+    if lineage["time"] <= years_ago:
+        folium.Marker(
+            location=[lineage["lat"], lineage["lon"]],
+            popup=f"""
+            <b>{lineage['name']}</b><br>
+            Location: {lineage['location']}<br><br>
+            {lineage['info']}
+            """,
+            tooltip=lineage["name"]
+        ).add_to(m)
 
-elif option == "Hair Type":
-    st.subheader("Hair Type")
-    st.write("Hair texture can be straight, wavy, curly, or coily. This is influenced by genetics and hair follicle shape.")
+st_folium(m, width=700, height=500)
 
-elif option == "Eye Color":
-    st.subheader("Eye Color")
-    st.write("Eye color depends on the amount and type of pigment in the iris.")
+st.subheader("Lineage Information")
 
-elif option == "Genetics":
-    st.subheader("Genetics")
-    st.write("Humans are genetically very similar, but small genetic differences contribute to traits like height, hair, and eye color.")
+for lineage in lineages:
+    if lineage["time"] <= years_ago:
+        with st.expander(lineage["name"]):
+            st.write(f"**Location:** {lineage['location']}")
+            st.write(f"**Approximate time:** {lineage['time']:,} years ago")
+            st.write(lineage["info"])
