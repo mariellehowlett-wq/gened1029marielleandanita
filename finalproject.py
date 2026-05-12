@@ -11,18 +11,17 @@ lineages = [
         "name": "Australopithecus afarensis",
         "time": 3900000,
         "location": "East Africa",
-        "lat": 9.0,
-        "lon": 40.0,
+        "lat": 11.2,
+        "lon": 40.6,
         "images": [
             "/workspaces/gened1029marielleandanita/images/australopithecus_afarensis.jpg",
             "/workspaces/gened1029marielleandanita/images/lucy.jpg",
         ],
-        "info": "Lived about 3.9–2.9 million years ago. Famous fossil: Lucy.",
-        "details": "A. afarensis walked upright but still had ape-like features including a small brain and long arms. The famous fossil 'Lucy', discovered in Ethiopia in 1974, is one of the most complete early hominin skeletons ever found."
+        "details": "A. afarensis was a group of small-bodied and small-brained early hominin species. Based on fossils recovered to date, A. afarensus lived between 3.7 and 3 million years ago. Their diet included plants such as grasses, fruits, and leaves. Their brain size was about 385-550 cubic centimeters, and their body weight ranged from 25-64 kg, with females significantly smaller than males. This detail means that their brain was roughly 1.3% of their body weight. A. afarensis is so significant due to the recovered fossil named Lucy. Her skeleton was around 40% complete, which at the time was the most complete hominin skeleton known. The discovery of Lucy, along with A. africanus specimens, confirmed that our early relatives generally walked upright and did so before the evolution of a large brain. A. afarensis possessed human-like and ape-like qualities, with a slightly domed skull and a projecting face. The small skull and long arms were those of apes, but their spine, pelvis, and knees were more human-like.",
     },
     {
         "name": "Homo habilis",
-        "time": 2400000,
+        "time": 2300000,
         "location": "East Africa",
         "lat": -3.0,
         "lon": 36.0,
@@ -30,8 +29,7 @@ lineages = [
             "/workspaces/gened1029marielleandanita/images/homo_habilis1.jpg",
             "/workspaces/gened1029marielleandanita/images/homo_habilis2.jpg",
         ],
-        "info": "Lived about 2.4–1.4 million years ago. Associated with early stone tools.",
-        "details": "H. habilis, meaning 'handy man', is the earliest species assigned to the genus Homo. They created the Oldowan toolkit — simple sharp-edged flakes struck from stone — marking a major leap in cognitive ability."
+        "details": "H. habilis was the earliest of our ancestors found to show an increase in brain size and the first to be associated with stone tools. This species lived between 2.3 and 1.5 million years ago and is assigned to the same genus as modern humans. Chemical analysis suggests that this species was mainly vegetarian, but did include some meat in its diet. H. habilis' brain size was about 610 cubic centimeters, and their weights ranged from 20-37 kg, meaning it was roughly 1.7% of their body weight. Nicknamed the “handyman”, stone tools were found near fossil remains. The first crude stone tools, consisting of simple choppers, core tools, and scrapers, were made as early as 2.6 million years ago. These tools were a progression from the use of sticks and natural, unmodified stones that the earlier ancestors likely used. H. habilis had a reduced facial projection compared with earlier species, including a smaller jaw than australopithecines. While still having the ape-like leg and arm proportions, the finger bone proportions suggest the human-like ability to form a precision grip.",
     },
     {
         "name": "Homo erectus",
@@ -43,21 +41,19 @@ lineages = [
             "/workspaces/gened1029marielleandanita/images/homo_erectus1.jpg",
             "/workspaces/gened1029marielleandanita/images/homo_erectus2.jpg",
         ],
-        "info": "Lived about 1.9 million–110,000 years ago. First hominin to leave Africa.",
-        "details": "H. erectus had a much larger brain than earlier hominins and was the first to master fire. They spread from Africa into Asia and Europe, surviving for nearly 2 million years — longer than any other Homo species."
+        "details": "H. erectus was an ancient human with human-like body proportions, with shorter arms and longer legs relative to its torso. H. erectus lived for quite some time, ranging from about two million years ago until at least 250,000 years ago. Unlike some earlier relatives, they were meat-eaters and lived as hunter-gatherers. H. erectus had an average brain volume of roughly 900-950 cubic centimeters, which is smaller than that of modern humans but much larger than that of early hominins. Due to increased body size, brain size was roughly 1.8% of their body weight. H. erectus made an important milestone with the use of fire, where they gained access to light, warmth, protection from predators, and the ability to cook food. The species spread out of Africa into western Asia, then eventually to eastern Asia and Indonesia. Based on fossil findings, scientists have concluded that H. erectus walked and ran much the same way we do. They were also the first human species to make handaxes, which were likely used to butcher meat. "
     },
     {
         "name": "Neanderthals",
         "time": 400000,
         "location": "Europe and western Asia",
-        "lat": 48.0,
-        "lon": 10.0,
+        "lat": 51.1,
+        "lon": 6.6,
         "images": [
             "/workspaces/gened1029marielleandanita/images/neanderthal1.jpg",
             "/workspaces/gened1029marielleandanita/images/neanderthal2.jpg",
         ],
-        "info": "Lived about 400,000–40,000 years ago. Closely related to modern humans.",
-        "details": "Neanderthals had large brains, buried their dead, and created tools and art. Genetic evidence shows they interbred with H. sapiens — most non-African people today carry 1–4% Neanderthal DNA."
+        "details": "Neanderthals are our closest ancient human relatives, with thousands of their artifacts and fossils found, including several nearly complete skeletons. With modern sequencing, their genomes were reconstructed from ancient DNA obtained from their fossils. Neanderthals lived from about 400,000 to 40,000 years ago, across Europe and southwest and central Asia. Their brain size was 1,200-1,750 cubic centimeters, and their weight ranged from 64 to 82 kg. This indicates that brain weight was likely accounting for 1.5-2% of their total body weight. Neanderthals lived alongside early modern humans for at least part of their existence, with encounters that were quite intimate. As a result, all those not completely composed of African DNA have inherited around 2% Neanderthal DNA. They had a long, low skull with a prominent brow ridge above their eyes. The central part of their face protruded forward, dominated by a very large, wide nose. Some scientists believe this feature may have been an adaptation to living in colder, drier climates, where the nose's volume would have helped moisten and warm the air they breathed.",
     },
     {
         "name": "Denisovans",
@@ -69,8 +65,7 @@ lineages = [
             "/workspaces/gened1029marielleandanita/images/denisovan1.jpg",
             "/workspaces/gened1029marielleandanita/images/denisovan2.jpg",
         ],
-        "info": "", 
-        "details": "", 
+        "details": "The Denisovans are a population of extinct hominins who lived between 400,000 and 30,000 years ago. This time spread is when the Denisovans and Neanderthals split from the human lineage. For a long time, this species was known only from its teeth and mitochondrial DNA extracted from a finger bone. Other than that, only a few fragmentary fossils of this population have been found. There was evidence of interbreeding between modern humans and Denisovans, meaning that some groups of humans today have small amounts of Denisovan DNA, found in people from Southeast Asia. Denisovan brain size was up to 1,600 cubic centimeters, but their height and weight are unknown. They were likely stockier and more robust than Neanderthals, with sturdy jaws and a large cranium.", 
     },
     {
         "name": "Homo heidelbergensis", 
@@ -82,21 +77,20 @@ lineages = [
             "/workspaces/gened1029marielleandanita/images/homo_heidelbergensis1.jpg",
             "/workspaces/gened1029marielleandanita/images/homo_heidelbergensis2.jpg",
         ],
-        "info": "", 
-        "details": "", 
+        "details": "Homo heidelbergensis is known to have been the first early human species to live in colder climates and the first to routinely hunt large animals. They lived and worked in co-operative groups and made a variety of tools, such as wooden spears set with stone spearheads. This species lived between 300,000 and 600,000 years ago, and its fossils have been found scattered across Africa and Europe, with the African fossils tending to be older than those in Europe. It is believed that the European populations of Homo heidelbergensis evolved into the Neanderthals, while the separate population in Africa evolved into Homo sapiens. Fossil evidence regarding body shape and size is limited, however, leg bones indicate they were tall, and skulls suggest that they had a large brow ridge and large brain capacity.", 
     },
     {
         "name": "Homo sapiens",
         "time": 300000,
         "location": "Africa",
         "lat": 31.8,
-        "lon": -7.1,
+        "lon": -8.5,
         "images": [
             "/workspaces/gened1029marielleandanita/images/homo_sapien1.jpg",
             "/workspaces/gened1029marielleandanita/images/homo_sapien2.jpg",
         ],
-        "info": "Modern humans appeared around 300,000 years ago in Africa.",
-        "details": "H. sapiens developed complex language, abstract thinking, and culture. Starting around 70,000 years ago, they spread out of Africa and eventually colonized every continent, becoming the last surviving hominin species."
+        "details": "The only surviving member of the human species, and the one we all belong to, is Homo sapiens. Due to interbreeding between H. sapiens and Neanderthals, Neanderthals are known to contribute 1-4% of the genomes of non-African modern humans. H. sapiens first appeared around 300,000 years ago in Africa and eventually spread across every continent on Earth. Modern humans can generally be characterized by a lighter skeleton, a high, round braincase, a smaller bony brow ridge above the eyes, and a chin on the lower jaw. The complex brains of modern humans enabled them to interact with one another and their surroundings in new ways, leading to complex social structures and the ability to communicate and share knowledge."
+
     },
     {
         "name": "Paranthropus/Australopithecus robustus", 
@@ -108,8 +102,7 @@ lineages = [
             "/workspaces/gened1029marielleandanita/images/a_robustus1.jpg",
             "/workspaces/gened1029marielleandanita/images/a_robustus2.jpg",
         ],
-        "info": "",
-        "details":"",
+        "details":"Paranthropus/Australopithecus robustus was an early human species that lived in southern Africa between about 1.8 and 1.2 million years ago. Similar to P. boisei, this species possessed large jaws and thick enamel adapted for chewing tough plant material. Their skulls had a broad face and a sagittal crest at the top that anchored the chewing muscles. Despite these features, studies of tooth wear suggest that they may have been more of a dietary generalist, eating a variety of other foods such as soft fruits, insects, and meat. Fossil evidence also suggests that they may have used simple bone and stone tools to dig for food or process materials. ",
     },
     {
         "name": "Paranthropus/Australopithecus boisei", 
@@ -121,8 +114,7 @@ lineages = [
             "/workspaces/gened1029marielleandanita/images/a_boisei1.jpg",
             "/workspaces/gened1029marielleandanita/images/a_boisei2.jpg",
         ], 
-        "info": "", 
-        "details": "ethiopia, malawi, kenya, tanzania",
+        "details": "Nicknamed “Nutcracker Man,” P. boisei individuals had the thickest dental enamel of any known early human, with a wide, dish-shaped face that created a larger opening for larger jaw muscles to support massive cheek teeth. These features suggest they likely ate tough foods such as roots and nuts, but dental microwear patterns on P. boisei teeth are more similar to those of living fruit-eaters. It is possible that they only ate hard or tough foods during times when their preferred resources were scarce. Although it has long been thought that this species relied solely on its jaws for food, recent research has revealed that it was capable of toolmaking and use to some extent. ",
     }, 
     {
         "name": "Australopithecus africanus", 
@@ -134,8 +126,7 @@ lineages = [
             "/workspaces/gened1029marielleandanita/images/a_africanus1.jpg", 
             "/workspaces/gened1029marielleandanita/images/a_africanus2.jpg",
         ], 
-        "info": "", 
-        "details": "",
+        "details": "Australopithecus africanus was the first of our pre-human ancestors to be discovered, with the Taung Child skull, found in 1924, being the first to establish that early fossil humans occurred in Africa. The skull had a mixture of human-like and ape-like features, such as a spinal cord hole positioned towards the front of the skull, suggesting upright walking, and a low, sloping forehead. This species is believed to have lived between 3.2 and 2 million years ago, and analysis of tooth-wear patterns suggests that its diet consisted of fruit, leaves, and some meat. No stone tools have been discovered in the same sediments as their fossils, but they likely used simple tools such as sticks and scavenged animal bones. ",
     },
     {
         "name": "Ardipithecus", 
@@ -147,7 +138,7 @@ lineages = [
             "/workspaces/gened1029marielleandanita/images/ardipithecus1.jpg", 
             "/workspaces/gened1029marielleandanita/images/ardipithecus2.jpg",
         ],
-        "details": "",
+        "details": "Ardipithecus is the earliest known genus of the zoological family Hominidae, having lived between 5.8 million and 4.4 million years ago. Although they had some ape-like features, they also had key human features, including smaller canines and some evidence of upright walking. In 2009, a partial skeleton nicknamed “Ardi” was announced, which has been considered the oldest known skeleton of a putative human ancestor. The scientists who found her argue that her skeleton reflects a human-African ape common ancestor that was not chimpanzee-like. This is due to the structure of her pelvis, which made it useful for both climbing and upright walking. Along with this, the bones of her palm were short, indicating that she did not knuckle-walk or swing beneath trees, but her long, curving fingers and opposable big toes suggest that she grasped tree branches. Through Ardi, researchers have been able to determine some of the anatomical changes that laid the foundation for upright walking. ",
     },
     {
         "name": "Homo floresiensis", 
@@ -159,7 +150,7 @@ lineages = [
             "/workspaces/gened1029marielleandanita/images/h_florensiensis1.jpg",
             "/workspaces/gened1029marielleandanita/images/h_florensiensis2.jpg",
         ],
-        "details": "",
+        "details": "Nicknamed “the Hobbit,” H. floresiensis individuals were approximately 3 feet 6 inches tall. They had small brains, about a third of the size of ours, broad hipbones, shrugged-forward shoulders, and very large flat feet. They are one of the most recently discovered early human species, discovered in 2003 on the island of Flores, Indonesia. The last known trace of H. floresiensis dates to about 50,000 years ago, and their oldest known remains are at least 100,000 years old. When they were first discovered, scientists believed that the skeleton may have belonged to a modern human child, however, the presence of fully developed wisdom teeth and defined brow ridges indicated that this was not the case. There are multiple theories as to why they were so small, one being that it may have resulted from island dwarfism, the evolutionary process in which large animals isolated on islands evolve smaller bodies due to limited food resources and a lack of large predators.  ",
     }, 
 ]
 
@@ -250,7 +241,6 @@ if st.session_state.selected:
             st.markdown(f"**📍 Location:** {match['location']}")
             st.markdown(f"**🕰 Approximate time:** {match['time']:,} years ago")
             st.divider()
-            st.write(match["info"])
             st.write(match["details"])
 
 if st.session_state.running and step < len(lineages_sorted):
